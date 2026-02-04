@@ -4,7 +4,7 @@ Sales Dashboard is a React app that shows sales data in charts and tables. It us
 
 ## Demo
 
-Live site: https://sales-dashboard-pi-five.vercel.app/signin  
+Live site: https://sales-dashboard-pi-five.vercel.app/  
 Deployed with Vercel
 
 ## Features
