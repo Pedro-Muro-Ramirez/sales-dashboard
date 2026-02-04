@@ -1,16 +1,70 @@
-# React + Vite
+# Sales Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sales Dashboard is a React app that shows sales data in charts and tables. It uses Supabase to store and fetch sales information. I built this project to practice working with real data, React state, and database connections while making something that looks like a business dashboard.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live site: https://sales-dashboard-teal-two.vercel.app  
+Deployed with Vercel
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Show sales data visually in charts
+- Use Supabase backend for data
+- Interactive UI with filters and data updates
+- Basic dashboard layout for quick insights
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React  
+- Supabase  
+- CSS  
+- GitHub  
+- Vercel  
+- Vite
+
+## Getting Started
+
+To run this project on your local machine, follow these steps.
+
+### Prerequisites
+
+- Node.js installed
+- Supabase project set up with environment keys
+
+### Installation
+
+1. Clone the repository
+2. Navigate into the project directory
+3. Install dependencies
+4. Create a `.env` file and add your Supabase keys
+5. Start the development server
+
+
+## Usage
+
+- View sales figures in charts and tables
+- Use filters to adjust what data shows
+- Update backend data in Supabase to see changes reflected
+
+## Project Status
+
+This project is finished. :contentReference[oaicite:1]{index=1}
+
+## What I Learned
+
+- How to use Supabase as a backend for a React app
+- How to fetch and display real data
+- How to create charts and dashboard UI
+- How to deploy a full stack project on Vercel
+
+## Future Improvements
+
+- Add user authentication
+- Add date range filters
+- Add more chart types
+- Improve styling and mobile layout
+
+## License
+
+This project is for educational and portfolio purposes.
